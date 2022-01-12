@@ -23,7 +23,11 @@ ul{
 }
 
 .bi-star-fill{
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.m-hr{
+    margin-top: 120px;
 }
 
 .line{
@@ -32,8 +36,7 @@ ul{
     border-radius: 1.5px;
 }
 
-.card{
-    width: 100%;
+.img-fluid{
     border-radius: 20px !important;
 }
 
@@ -50,7 +53,48 @@ ul{
     border-color: #1abc9c !important;
 }
 
-.btn-primary:focus,
-.btn-primary.focus {
+.btn-primary:focus {
     box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5) !important;
+}
+
+.bord{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    border-radius: 0.0rem !important;
+}
+
+.abs{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    margin: 0 12px;
+    opacity: 0;
+}
+
+.abs:hover{
+    opacity: 0.7;
+}
+
+.rel{
+    position: relative;
+}
+
+.bi-plus-lg{
+    font-size: 150px;
+    color: white;
+}
+
+.navbar-toggler{
+    border-color: white !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-toggler-icon{
+    filter: invert(100%);
 }
